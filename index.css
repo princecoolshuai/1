@@ -1,0 +1,126 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* 整个页面 */
+    
+    .page {
+        border: 1px solid red;
+        height: 1800px;
+        /* width: 100%; */
+        background: #F5F5F7 !important;
+    }
+    /*导航栏 */
+    
+    .navbar {
+        height: 56px;
+        width: 100% !important;
+        /* border: 2px solid pink; */
+    }
+    /* logo 部分 */
+    
+    .logo {
+        /* border: 1px solid green; */
+        height: 56px;
+        margin: 0 auto;
+        background: #ffffff;
+        /* text-align: center; */
+    }
+    
+    .logo img {
+        width: 115px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    /* 导航条 */
+    
+    .item {
+        /* border: 1px solid yellow; */
+        height: 56px;
+        text-align: center;
+    }
+    
+    .box {
+        margin-left: -60px;
+    }
+    
+    .item ul {
+        background: #ffffff !important;
+    }
+    
+    .item ul li {
+        margin-left: 50px;
+    }
+    
+    .item ul li a {
+        color: #404040 !important;
+        text-align: center !important;
+    }
+    
+    .item ul li a:hover {
+        color: #ff4f4c !important;
+    }
+    /* nav_r */
+    
+    .nav_r {
+        background: #ffffff;
+        height: 56px;
+    }
+    
+    .nav_r .r {
+        margin-top: 14px;
+    }
+    
+    .r img {
+        height: 24px;
+    }
+    
+    .r {
+        border-right: 2px solid #DEDFE1;
+        width: 44px;
+        line-height: 28px;
+        /* border: 1px solid #DEDFE1; */
+    }
+    
+    .btn {
+        margin-top: 8px;
+        /* margin-left: 30px; */
+        width: 75%;
+        /* border: 1px solid #ff4f4c; */
+    }
+    /* 内容部分 */
+    
+    .content {
+        margin-top: 80px;
+        border: 1px solid red;
+        text-align: center;
+    }
+    
+    .content p {
+        margin: 20px;
+    }
+    
+    .content p:nth-child(1) {
+        font-size: 30px;
+    }
+    
+    .content p:nth-child(2) {
+        color: #909090;
+    }
+    
+    .up {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .down {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .tab .icon {
+        border: 1px solid red;
+        height: 240px;
+        width: 22%;
+    }

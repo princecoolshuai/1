@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script type="text/JavaScript" src="layui/layui.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 网页 -->
+    <div class="page layui-fluid">
+        <!-- 导航 -->
+        <div class="navbar layui-row">
+            <!-- logo -->
+            <div class="logo layui-logo layui-col-md2 layui-col-xs1 layui-col-sm4">
+                <img src="img/logo.png" alt="">
+            </div>
+            <!-- 导航条 -->
+            <div class="item layui-col-md8 layui-col-xs10 layui-col-sm4">
+                <ul class="layui-nav box" lay-filter="">
+                    <li class="layui-nav-item layui-this"><a href="">简历模板</a></li>
+                    <li class="layui-nav-item "><a href="">求职信</a></li>
+                    <li class="layui-nav-item"><a href="">简历攻略</a></li>
+                    <li class="layui-nav-item"><a href="javascript:;">简历诊断</a></li>
+                    <li class="layui-nav-item"><a href="">名企内推</a></li>
+                </ul>
+            </div>
+            <!-- 导航右边 -->
+            <div class="nav_r layui-col-md2 layui-col-xs1 layui-col-sm4">
+                <div class="r layui-col-md6 layui-col-xs12 layui-col-sm12">
+                    <img src="img/phone.png" alt="">
+                </div>
+                <div class="btn layui-col-md6 layui-col-xs12 layui-col-sm12 layui-row">
+                    <a href=""><input class="btn1 layui-col-md6 layui-col-xs6 layui-col-sm6 layui-btn layui-btn-primary" type="button" name="" value="登录"></a>
+                    <a href=""><input class="btn1 layui-col-md6 layui-col-xs6 layui-col-sm6 layui-btn layui-btn-danger" type="button" name="" value="注册" style="color: white"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 导航结束 -->
+        <!-- 内容部分 -->
+        <div class="layui-container layui-row content">
+            <div class="title layui-col-md12">
+                <p>选择你的简历模板</p>
+                <p>选对专业的简历模板，帮你提高 2 倍求职成功率</p>
+            </div>
+            <div class="tab layui-row">
+                <div class="up layui-row layui-col-md12">
+                    <div class="icon">
+                        <img src="img/zero-exp-icon.png" alt="">
+                    </div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                </div>
+                <div class="down layui-row layui-col-md12">
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                    <div class="icon"><img src="img/zero-exp-icon.png" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 内容部分结束 -->
+    </div>
+    <!-- 网页结束 -->
+    <script>
+        //注意：导航 依赖 element 模块，否则无法进行功能性操作
+        layui.use('element', function() {
+            var element = layui.element;
+
+            //…
+        });
+    </script>
+</body>
+
+</html>
